@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
 
-<button class="cu-btn round bg-pink">点我增添提示</button>
+<button class="cu-btn round bg-pink" bindtap="onJump">点我跳转</button>
 
   <!-- 用户 openid -->
   <view class="userinfo">

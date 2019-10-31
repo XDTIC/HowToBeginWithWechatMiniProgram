@@ -1,0 +1,10 @@
+
+<view wx:for="{{testList}}" wx:key>
+  <view class="cu-tag bg-green">{{item}}</view>
+</view>
+
+<hr/>
+
+<br/><br/>
+
+<button class="cu-btn round bg-pink" bindtap="addTag">点我新增提示</button>

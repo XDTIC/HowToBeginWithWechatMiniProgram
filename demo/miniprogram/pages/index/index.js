@@ -10,6 +10,10 @@ Page({
     requestResult: ''
   },
 
+  onJump: function(){
+    wx.navigateTo({url:'/pages/mypage/mypage'})
+  },
+
   onLoad: function() {
     if (!wx.cloud) {
       wx.redirectTo({
