@@ -1,6 +1,6 @@
 
 <view wx:for="{{testList}}" wx:key>
-  <view class="cu-tag bg-green">{{item}}</view>
+  <view class="cu-tag bg-red">{{item}}</view>
 </view>
 
 <hr/>
@@ -33,15 +33,15 @@
 
 
 
-<!-- <view class="cu-bar tabbar margin-bottom-xl bg-white foot">
+<view class="cu-bar tabbar margin-bottom-xl bg-white foot">
     <view class="action text-green">
-      <view class="cuIcon-homefill" bindtap="clicked"></view> 首页
+      <view class="cuIcon-homefill"></view> 首页
     </view>
     <view class="action text-gray">
       <view class="cuIcon-similar"></view> 分类
     </view>
     <view class="action text-gray add-action">
-      <button class="cu-btn cuIcon-add bg-green shadow"></button>
+      <button class="cu-btn cuIcon-add bg-green shadow" bindtap="clicked"></button>
       发布
     </view>
     <view class="action text-gray">
@@ -56,4 +56,4 @@
       </view>
       我的
     </view>
-  </view> -->
+  </view>

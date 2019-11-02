@@ -15,6 +15,10 @@ Page({
 
   },
 
+  clicked:function(){
+    console.log(123)
+  },
+
   addTag: function(){
     this.data.testList.push('new ' + Math.random())
     this.setData({ testList: this.data.testList })

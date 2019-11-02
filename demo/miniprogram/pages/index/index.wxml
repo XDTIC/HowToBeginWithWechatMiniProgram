@@ -3,7 +3,7 @@
 
 <button class="cu-btn round bg-pink" bindtap="onJump">点我跳转</button>
 
-  <!-- 用户 openid -->
+
   <view class="userinfo">
     <button 
       open-type="getUserInfo" 
